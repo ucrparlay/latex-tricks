@@ -1,0 +1,33 @@
+
+<style type="text/css">
+.btn {
+margin-top: 5px;
+font-size: 60%;
+}
+.smallbtn {
+margin-top: 5px;
+font-size: 70%;
+}
+.greentext {
+color: #009c7b;
+}
+.purpletext {
+color: #F233E5;
+}
+.yellowtext {
+color: #DBAF01;
+}
+</style>
+
+<!--
+{%- assign theory = site.data.labels["theory"] -%}
+{%- assign practice = site.data.labels["practice"] -%}
+{%- assign tandp = site.data.labels["tandp"] -%}
+{%- assign sequential = site.data.labels["sequential"] -%}
+-->
+{%- assign newline = "<br>&nbsp;&nbsp;&nbsp;&nbsp;" -%}
+{%- assign space = "&nbsp;&nbsp;" -%}
+{%- assign theory = "*theory*{: .greentext}&nbsp;&nbsp;" -%}
+{%- assign practice = "*practice*{: .purpletext}&nbsp;&nbsp;" -%}
+{%- assign sequential = "*sequential*{: .yellowtext}&nbsp;&nbsp;" -%}
+{%- assign linkbtn = site.data.labels["linkbtn"] -%}

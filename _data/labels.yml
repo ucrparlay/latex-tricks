@@ -1,0 +1,5 @@
+theory: "**Theory**{: .label .label-green }"
+practice: "**Practice**{: .label .label-purple }"
+tandp: "**Theory**{: .label .label-green } **Practice**{: .label .label-purple }"
+sequential: "**Sequential**{: .label .label-yellow }"
+linkbtn: "{: .btn .btn-blue}"
