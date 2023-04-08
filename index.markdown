@@ -6,14 +6,10 @@ description: "Hello!"
 permalink: /
 ---
 
-## Reading List for Parallel Algorithms
+## LaTeX Tricks for Paper Writing
 
 &nbsp;<br>
 
 This page is maintained by the Parallel Algorithm Lab at UC Riverside ([UCRPAL](https://pal.cs.ucr.edu))
 
-It is currently under construction.
-
-If you want to recommend papers to our list, just send an email to <a href="mailto:parallel.algorithm.lab@gmail.com">parallel.algorithm.lab@gmail.com</a>
-
-
+This list provide a quick guidance for commonly-use LaTeX tricks useful in paper writing. 
