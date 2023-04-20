@@ -26,12 +26,24 @@ A quick example to everything:
 % \titlespacing{\subsection}{0pt}{1em}{1em}
 %% runin subsubsection:
 % \titleformat{\subsection}[runin]
-{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{\underline{#1.}}
+% {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+%% Set special format for title: 
+% \newcommand{\mysubsection}[1]{\underline{#1}.}
+% \titleformat{\subsection}[runin]
+% {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{\mysubsection}
 
-%% this is to change the space below tables/figures 
-\setlength{\textfloatsep}{0.5em} 
-%% this is to change the space above tables/figures 
+% Space around the caption
+\setlength\abovecaptionskip{0em}
+\setlength\belowcaptionskip{0.3em}
+% Space between multiple floatings
+\setlength{\floatsep}{0em}
+% space below floating (distance to the rest of text)
+\setlength{\textfloatsep}{0.5em}
+% space above tables/figures (distance from the text above)
 \setlength{\intextsep}{0.5em} 
+%%%%% these two are for double-column floatings, e.g., figure* and table*
+\setlength{\dbltextfloatsep}{1em} % floating to text
+\setlength{\dblfloatsep}{0.5em} % between floatings
 
 %% remove space above/below equations, should be put inside the document (don't know why)
 \setlength{\abovedisplayskip}{3pt}
@@ -39,3 +51,5 @@ A quick example to everything:
 \setlength{\abovedisplayshortskip}{2pt}
 \setlength{\belowdisplayshortskip}{2pt}
 ```
+
+For space around tables/figures/algorithms, refer to [floating](floating-equations)

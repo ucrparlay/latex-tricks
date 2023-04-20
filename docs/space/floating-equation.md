@@ -5,20 +5,26 @@ parent: Space Tricks
 nav_order: 3
 ---
 
-## Floating (figures/tables) spacing
+## Floating (figures/tables/algorithm) spacing
 
-Change the sapce below/above tables/figures
+Change the space below/above floatings
 
 **Example**
 
 ```
-% this is to change the space below tables/figures
-\setlength{\textfloatsep}{0.5em} 
-% this is to change the space above tables/figures
+% Space around the caption
+\setlength\abovecaptionskip{0em}
+\setlength\belowcaptionskip{0.3em}
+% Space between multiple floatings
+\setlength{\floatsep}{0em}
+% space below floating (distance to the rest of text)
+\setlength{\textfloatsep}{0.5em}
+% space above tables/figures (distance from the text above)
 \setlength{\intextsep}{0.5em} 
+%%%%% these two are for double-column floatings, e.g., figure* and table*
+\setlength{\dbltextfloatsep}{1em} % floating to text
+\setlength{\dblfloatsep}{0.5em} % between floatings
 ```
-
-![enumitem](img/enumitem.png)
 
 
 ## Display skip

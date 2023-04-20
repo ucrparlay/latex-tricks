@@ -35,5 +35,13 @@ which provides you a bundle of choices to make section titles more space-efficie
 Using a runin title (in the same line with text):
 ```
 \titleformat{\subsection}[runin]
-{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{\underline{#1.}}
+{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+```
+
+Use special format for the title:
+
+```
+\newcommand{\mysubsection}[1]{\underline{#1}.}
+\titleformat{\subsection}[runin]
+{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{\mysubsection}
 ```
