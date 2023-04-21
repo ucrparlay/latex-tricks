@@ -7,9 +7,17 @@ nav_order: 3
 
 ## Floating (figures/tables/algorithm) spacing
 
-Change the space below/above floatings
+A list of spacing settings:
 
-**Example**
+- `abovecaptionskip` and `belowcaptionskip`: space around the caption
+- `\floatsep`: Space between multiple floatings
+- `\textfloatsep`: space below floating (distance to the rest of text)
+- `\intextsep`: space above tables/figures (distance from the text above)
+- `\dbltextfloatsep`: for double-column floatings (e.g., `figure*` and `table*`), the distance from the floating to the text
+- `\dblfloatsep`: for double-column floatings (e.g., `figure*` and `table*`), the distance between floatings
+
+
+**Example:**
 
 ```
 % Space around the caption

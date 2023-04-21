@@ -52,4 +52,4 @@ A quick example to everything:
 \setlength{\belowdisplayshortskip}{2pt}
 ```
 
-For space around tables/figures/algorithms, refer to [floating](floating-equations)
+For space around tables/figures/algorithms, refer to [floating](docs/space/floating-equation.html)
