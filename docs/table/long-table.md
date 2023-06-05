@@ -3,7 +3,7 @@ layout: default
 title: Long Table
 parent: Tables
 nav_order: 3
-permalink: /tables
+permalink: /longtables
 ---
 
 Using the `longtable` package allows you to insert page breaks between tables. 

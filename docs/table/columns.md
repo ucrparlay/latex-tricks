@@ -3,7 +3,7 @@ layout: default
 title: Table Columns
 parent: Tables
 nav_order: 1
-permalink: /tables
+permalink: /tablecolumns
 ---
 
 ### Columns Format

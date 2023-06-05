@@ -3,7 +3,7 @@ layout: default
 title: Horizontal Lines
 parent: Tables
 nav_order: 2
-permalink: /tables
+permalink: /tablelines
 ---
 
 You can use `hline` for a thinner line that takes little additional space. Similarly use `\cline{x-y}` to make this line to cover only column x to y. 
