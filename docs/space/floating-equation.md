@@ -37,7 +37,7 @@ A list of spacing settings:
 
 ## Display skip
 
-Change skip above/below equations.
+Change skip above/below equations. Put them after `\begin{document}`.
 
 **Example**
 

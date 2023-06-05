@@ -12,4 +12,4 @@ permalink: /
 
 This page is maintained by the Parallel Algorithm Lab at UC Riverside ([UCRPAL](https://pal.cs.ucr.edu))
 
-This list provide a quick guidance for commonly-use LaTeX tricks useful in paper writing. 
+This list provide a quick guidance for some useful LaTeX tricks in paper writing. 
