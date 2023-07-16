@@ -3,7 +3,6 @@ layout: default
 title: Space Tricks
 has_children: true
 nav_order: 2
-permalink: /space
 ---
 
 
@@ -17,6 +16,8 @@ A quick example to everything:
 % \setlength\textheight{10in}
 % \usepackage[text={7in,10in},centering]{geometry}
 % \usepackage[margin=1.5in]{geometry} 
+%% Pass the parameters as below if geometry package is already included
+% \geometry{lmargin=0.75in,rmargin=0.75in,tmargin=1in,bmargin=1in}
 
 %% Use compact caption titles
 \usepackage[compact]{titlesec}
@@ -52,4 +53,6 @@ A quick example to everything:
 \setlength{\belowdisplayshortskip}{2pt}
 ```
 
-For space around tables/figures/algorithms, refer to [floating](docs/space/floating-equation.html)
+For space around tables/figures/algorithms, refer to [floating](/latex-tricks/docs/space/floating-equation.html)
+
+For space for algorithms, refer to [algorithms/spacing](/latex-tricks/docs/algorithm/spacing.html)

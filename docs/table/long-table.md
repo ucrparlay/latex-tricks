@@ -3,7 +3,6 @@ layout: default
 title: Long Table
 parent: Tables
 nav_order: 3
-permalink: /longtables
 ---
 
 Using the `longtable` package allows you to insert page breaks between tables. 
@@ -51,3 +50,9 @@ Using the `longtable` package allows you to insert page breaks between tables.
 `\endfoot`: similarly this defines the foot for every page
 
 `\endlastfoot`: the last line in the table
+
+A similar packagae is `supertabular`.
+
+```
+\usepackage{supertabular}
+```
